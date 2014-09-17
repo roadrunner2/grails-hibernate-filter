@@ -4,7 +4,8 @@ import org.grails.plugin.hibernate.filter.DefaultHibernateFiltersHolder
 import org.grails.plugin.hibernate.filter.HibernateFilterUtils
 
 class HibernateFilterGrailsPlugin {
-	def version = '0.3.3'
+	def version = "0.3.3"
+	def groupId = "org.grails.plugins"
 	def grailsVersion = '1.3 > *'
 	def loadAfter = ['controllers', 'hibernate']
 	def observe = ['*']

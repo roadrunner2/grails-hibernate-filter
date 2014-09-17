@@ -5,3 +5,5 @@
 *.zip
 plugin.xml
 .DS_Store
+*.sha1
+*Repo
